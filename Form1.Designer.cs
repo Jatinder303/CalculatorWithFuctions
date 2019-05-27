@@ -107,6 +107,7 @@
             this.Btn_Sub.TabIndex = 7;
             this.Btn_Sub.Text = "Sub";
             this.Btn_Sub.UseVisualStyleBackColor = true;
+            this.Btn_Sub.Click += new System.EventHandler(this.Btn_Sub_Click);
             // 
             // Btn_Mul
             // 
@@ -116,6 +117,7 @@
             this.Btn_Mul.TabIndex = 8;
             this.Btn_Mul.Text = "Mult";
             this.Btn_Mul.UseVisualStyleBackColor = true;
+            this.Btn_Mul.Click += new System.EventHandler(this.Btn_Mul_Click);
             // 
             // Btn_Div
             // 
@@ -125,6 +127,7 @@
             this.Btn_Div.TabIndex = 9;
             this.Btn_Div.Text = "Div";
             this.Btn_Div.UseVisualStyleBackColor = true;
+            this.Btn_Div.Click += new System.EventHandler(this.Btn_Div_Click);
             // 
             // Btn_Clear
             // 
@@ -134,6 +137,7 @@
             this.Btn_Clear.TabIndex = 10;
             this.Btn_Clear.Text = "Clear";
             this.Btn_Clear.UseVisualStyleBackColor = true;
+            this.Btn_Clear.Click += new System.EventHandler(this.Btn_Clear_Click);
             // 
             // Form1
             // 
