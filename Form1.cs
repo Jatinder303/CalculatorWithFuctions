@@ -11,7 +11,7 @@ namespace CalculatorWithFuctions
         }
 
         // Add function to add 2 numbers. This function accept two string type parameters and string type return value
-        static String Add(String FirstNumber, String SecondNumber)
+        public String Add(String FirstNumber, String SecondNumber)
         {
             int first_Number = int.Parse(FirstNumber);
             int second_number = int.Parse(SecondNumber);
@@ -20,7 +20,7 @@ namespace CalculatorWithFuctions
         }
 
         // Sub function to perform subtraction operation. This function accept two string type parameters and string type return value
-        static String Sub(String FirstNumber, String SecondNumber)
+        public String Sub(String FirstNumber, String SecondNumber)
         {
             int first_Number = int.Parse(FirstNumber);
             int second_number = int.Parse(SecondNumber);
@@ -29,7 +29,7 @@ namespace CalculatorWithFuctions
         }
 
         // Mult function to perform multiplication operation. This function accept two string type parameters and string type return value
-        static String Mult(String FirstNumber, String SecondNumber)
+        public String Mult(String FirstNumber, String SecondNumber)
         {
             int first_Number = int.Parse(FirstNumber);
             int second_number = int.Parse(SecondNumber);
@@ -38,7 +38,7 @@ namespace CalculatorWithFuctions
         }
 
         // Div function to perform Division operation. This function accept two string type parameters and string type return value
-        static String Div(String FirstNumber, String SecondNumber)
+        public String Div(String FirstNumber, String SecondNumber)
         {
             int first_Number = int.Parse(FirstNumber);
             int second_number = int.Parse(SecondNumber);
